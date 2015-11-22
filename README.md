@@ -14,7 +14,7 @@ Bootstrap Templates: http://startbootstrap.com/
 WrapBootstrap: https://wrapbootstrap.com/
 
 ## Bootstrap CDNS
-
+`
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
@@ -26,6 +26,7 @@ WrapBootstrap: https://wrapbootstrap.com/
 
 <!-- Latest Jquery on Google CDN -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+`
 
 ## Popular Frontend Frameworks
 
@@ -53,3 +54,18 @@ Google PageSpeed Insights: https://developers.google.com/speed/pagespeed/insight
 
 Google Device Metrics: https://design.google.com/devices/
 
+Google Fonts: https://www.google.com/fonts
+
+20 Perfect Font Pairings: http://www.creativebloq.com/typography/20-perfect-type-pairings-3132120
+
+Brilliant Color Combinations: https://designschool.canva.com/blog/100-color-combinations/
+
+## Running the demoapp
+
+* Must have node installed
+
+cd demoapp
+
+npm install
+
+node app.js
