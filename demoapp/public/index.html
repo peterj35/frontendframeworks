@@ -1,0 +1,368 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Bootstrap Demo</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/bootstrap-theme.min.css" media="screen" charset="utf-8">
+        <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" charset="utf-8">
+        <link rel="stylesheet" href="/css/custom.css" media="screen" charset="utf-8">
+    </head>
+    <body>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Bootstrap Demo</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/">Home</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+      <div class="container">
+        <div class="row">
+          <div class="jumbotron">
+            <h1>A Bootstrap Demo</h1>
+            <p>
+              This is a bootstrap demo.
+            </p>
+            <p>
+              <div class="btn-group">
+                <button type="button" class="btn btn-default">Left</button>
+                <button type="button" class="btn btn-default">Middle</button>
+                <button type="button" class="btn btn-default">Right</button>
+              </div>
+            </p>
+            <p>
+              <div class="">
+                  <button type="button" class="btn btn-primary btn-sm ">A Primary Button</button>
+                  <button type="button" class="btn btn-danger btn-sm">A Danger Button</button>
+              </div>
+            </p>
+          </div>
+        </div>
+
+        <div id="sizedemo">
+          <div class="row">
+            <p class="lead">
+              xs: Mobile
+            </p>
+            <div class="col-xs-3">
+              <div class="panel" style="background: #E44424;">
+                <code>col-xs-3</code>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class="panel" style="background: #67BCDB;">
+                <code>col-xs-3</code>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class="panel" style="background: #A2AB58;">
+                <code>col-xs-3</code>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class="panel" style="background: #FFE658;">
+                <code>col-xs-3</code>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <p class="lead">
+              sm: Tablets
+            </p>
+            <div class="col-sm-3">
+              <div class="panel" style="background: #E44424;">
+                <code>col-sm-3</code>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="panel" style="background: #67BCDB;">
+                <code>col-sm-3</code>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="panel" style="background: #A2AB58;">
+                <code>col-sm-3</code>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="panel" style="background: #FFE658;">
+                <code>col-sm-3</code>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <p class="lead">
+              md: small desktop
+            </p>
+            <div class="col-md-3">
+              <div class="panel" style="background: #E44424;">
+                <code>col-md-3</code>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="panel" style="background: #67BCDB;">
+                <code>col-md-3</code>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="panel" style="background: #A2AB58;">
+                <code>col-md-3</code>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="panel" style="background: #FFE658;">
+                <code>col-md-3</code>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <p class="lead">
+              lg: large desktop
+            </p>
+            <div class="col-lg-3">
+              <div class="panel" style="background: #E44424;">
+                <code>col-lg-3</code>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="panel" style="background: #67BCDB;">
+                <code>col-lg-3</code>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="panel" style="background: #A2AB58;">
+                <code>col-lg-3</code>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="panel" style="background: #FFE658;">
+                <code>col-lg-3</code>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row margin-top">
+          <p class="lead">
+            These panels will stack in smaller devices:
+            <code>class="col-md-4"</code>
+          </p>
+          <div class="col-md-4">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3>Sample Panel 1</h3>
+              </div>
+              <div class="panel-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3>Sample Panel 2</h3>
+              </div>
+              <div class="panel-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3>Sample Panel 3</h3>
+              </div>
+              <div class="panel-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <p class="lead">
+            These panels will stay vertical in smaller devices:
+            <code>class="col-md-4 col-xs-4"</code>
+          </p>
+          <div class="col-md-4 col-xs-4">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3>Sample Panel 1</h3>
+              </div>
+              <div class="panel-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-4">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3>Sample Panel 2</h3>
+              </div>
+              <div class="panel-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-4">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3>Sample Panel 3</h3>
+              </div>
+              <div class="panel-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <p class="lead">
+            <code>class="col-lg-6 col-md-4 col-xs-6"</code>
+          </p>
+          <div class="col-lg-6 col-md-4 col-xs-6">
+            <div class="panel panel-danger">
+              <div class="panel-heading">
+                <h3>Sample Panel 1</h3>
+              </div>
+              <div class="panel-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-4 col-xs-6">
+            <div class="panel panel-danger">
+              <div class="panel-heading">
+                <h3>Sample Panel 2</h3>
+              </div>
+              <div class="panel-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row margin-top">
+          <p class="lead">
+            Centering Panels:
+          </p>
+          <div class="col-md-3">
+          </div>
+          <div class="col-md-6">
+            <div class="panel panel-warning">
+              <div class="panel-heading">
+                <h3>Centered Panel</h3>
+              </div>
+              <div class="panel-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <p class="lead">
+            Offsets: <code>class="col-md-3 col-md-offset-3"</code> and <code>class="col-md-3"</code>
+          </p>
+          <div class="col-md-3 col-md-offset-3">
+            <div class="panel panel-info">
+              <div class="panel-heading">
+                <h3>Centered Panel</h3>
+              </div>
+              <div class="panel-body">
+                <p>
+                  <code>class="col-md-3 col-md-offset-3"</code>
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="panel panel-info">
+              <div class="panel-heading">
+                <h3>Centered Panel</h3>
+              </div>
+              <div class="panel-body">
+                <p>
+                  <code>class"col-md-3"</code>
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="margin-top">
+        <div class="container">
+          <p class="text-center">
+            Centered <code>"text-center"</code>
+          </p>
+          <p class"text-left">
+            Left <code>"text-left"</code>
+          </p>
+          <p class="text-right">
+            Right <code>"text-right"</code>
+          </p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="margin-top">
+          <a href="icons.html">Icons</a>
+          <br>
+          <a href="noicons.html">No icons</a>
+        </div>
+      </div>
+
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+    </body>
+</html>
