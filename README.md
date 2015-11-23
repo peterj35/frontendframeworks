@@ -47,6 +47,8 @@ Less Basics: http://lesscss.org/
 
 ## Other Misc Resources
 
+IBM Northstar Framework: http://nsdev.somerslab.ibm.com/v18/
+
 Responsive Resources: http://bradfrost.github.io/this-is-responsive/resources.html
 
 Google PageSpeed Insights: https://developers.google.com/speed/pagespeed/insights/
